@@ -1,0 +1,19 @@
+r1225 | sangho.jin | 2020-12-24 13:52:16 KST
+Changed paths:
+	M /icfr_deamon/src/com/semec/efi/batch/icfr/GbtsBatch04.java
+
+ssss
+----------------------------------------------------------------------------
+r1216 | sangho.jin | 2020-12-23 18:31:38 KST
+Changed paths:
+	A /icfr_deamon/src/com/semec/efi/batch/icfr/GbtsBatch04.java
+	M /icfr_deamon/src/com/fs/batchjob/FSBatchJobScheduler.properties
+
+전결후처리 배치 잡 추가
+----------------------------------------------------------------------------
+r1215 | sangho.jin | 2020-12-23 18:30:43 KST
+Changed paths:
+	M /icfr_deamon/src/com/fs/util/FSUtil.java
+
+로그파일 경로 없을때 오류 처리 추가
+----------------------------------------------------------------------------
