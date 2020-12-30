@@ -1,0 +1,738 @@
+r1286 | sangho.jin | 2020-12-29 17:16:11 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+
+모바일 일일출장 수정
+----------------------------------------------------------------------------
+r1233 | sangho.jin | 2020-12-24 18:28:09 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+
+DAILY 필드가 SAP 자리수에 맞지 않아 소수점 절삭 추가
+----------------------------------------------------------------------------
+r1207 | sangho.jin | 2020-12-23 11:32:02 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sttl/sttlActualCostCBPop.xml
+	M /GBTS/WebContent/ui/sttl/tripSttlReqForm.xml
+
+현금영수증 팝업 수정
+----------------------------------------------------------------------------
+r1185 | sangho.jin | 2020-12-22 10:51:05 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sttl/sttlActualCostCBPop.xml
+
+계정 부분 추가
+----------------------------------------------------------------------------
+r1179 | sangho.jin | 2020-12-21 18:38:17 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sttl/sttlActualCostCBPop.xml
+
+공통코드 적용
+----------------------------------------------------------------------------
+r1175 | sangho.jin | 2020-12-21 15:35:29 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sttl/sttlActualCostCBPop.xml
+
+합산정산자 필드 삭제
+----------------------------------------------------------------------------
+r1145 | sangho.jin | 2020-12-17 18:29:46 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sttl/sttlActualCostCBPop.xml
+
+정산 현금영수증 팝업 (합산정산자 X)
+----------------------------------------------------------------------------
+r1126 | sangho.jin | 2020-12-16 18:07:15 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sttl/tripSttlReqForm.xml
+	M /GBTS/WebContent/ui/sttl/sttlActualCostCBPop.xml
+
+작업중 정산 현금영수증 팝업
+----------------------------------------------------------------------------
+r1113 | sangho.jin | 2020-12-15 18:51:58 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/WebContent/ui/admin/biztReserveManage/reserveList.xml
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/src/com/sem/gbts/biztReserve/mapper/bizt_reserve_mapper.xml
+	M /GBTS/src/com/sem/gbts/biztReserve/service/impl/BizTripReserveServiceImpl.java
+
+다국어 적용 완료 및 오류 수정
+----------------------------------------------------------------------------
+r1101 | sangho.jin | 2020-12-14 17:52:42 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/biztReserve/dao/BizTripReserveDao.java
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/biztReserve/service/impl/BizTripReserveServiceImpl.java
+	M /GBTS/src/com/sem/gbts/biztReserve/controller/BizTripReserveController.java
+	M /GBTS/src/com/sem/gbts/biztReserve/mapper/bizt_reserve_mapper.xml
+	M /GBTS/WebContent/ui/admin/biztReserveManage/reserveList.xml
+
+다국어 및 예약관리 수정
+----------------------------------------------------------------------------
+r1083 | sangho.jin | 2020-12-14 10:21:50 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+
+인증URL 내부용으로 변경
+----------------------------------------------------------------------------
+r1074 | sangho.jin | 2020-12-11 21:13:28 KST
+Changed paths:
+	A /GBTS/src/com/sem/gbts/biztReserve
+	A /GBTS/src/com/sem/gbts/biztReserve/dao/BizTripReserveDao.java
+	A /GBTS/src/com/sem/gbts/biztReserve/service/BizTripReserveService.java
+	A /GBTS/src/com/sem/gbts/biztReserve/mapper/bizt_reserve_mapper.xml
+	A /GBTS/WebContent/ui/admin/biztReserveManage
+	A /GBTS/src/com/sem/gbts/biztReserve/service
+	A /GBTS/src/com/sem/gbts/biztReserve/controller/BizTripReserveController.java
+	A /GBTS/src/com/sem/gbts/biztReserve/service/impl
+	A /GBTS/src/com/sem/gbts/biztReserve/controller
+	A /GBTS/WebContent/ui/admin/biztReserveManage/reserveList.xml
+	A /GBTS/src/com/sem/gbts/biztReserve/mapper
+	A /GBTS/src/com/sem/gbts/biztReserve/dao
+	A /GBTS/src/com/sem/gbts/biztReserve/service/impl/BizTripReserveServiceImpl.java
+
+총무담당자 예약화면 화면 완료
+----------------------------------------------------------------------------
+r1073 | sangho.jin | 2020-12-11 21:13:01 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+
+신청번호에 따른 조회로 수정
+----------------------------------------------------------------------------
+r1071 | sangho.jin | 2020-12-11 18:39:16 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+
+지도팝업콜백함수 수정
+----------------------------------------------------------------------------
+r1060 | sangho.jin | 2020-12-11 15:01:16 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+
+다국어 삽입
+----------------------------------------------------------------------------
+r1059 | sangho.jin | 2020-12-11 15:00:55 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/tripReqFormInclude.xml
+
+일정 리스트 저장시 오류 부분 수정
+----------------------------------------------------------------------------
+r1058 | sangho.jin | 2020-12-11 15:00:31 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+
+스케쥴리스트 오류 수정
+----------------------------------------------------------------------------
+r1057 | sangho.jin | 2020-12-11 10:55:58 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+
+삭제 안되는 부분 수정
+----------------------------------------------------------------------------
+r1053 | sangho.jin | 2020-12-10 19:27:39 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+
+삭제 관련 작업 중
+----------------------------------------------------------------------------
+r1052 | sangho.jin | 2020-12-10 17:47:55 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+
+출장일정 테이블 delete > insert 방식 수정
+----------------------------------------------------------------------------
+r1024 | sangho.jin | 2020-12-09 15:46:34 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/WebContent/mobile/js/gbts_lib.js
+
+다국어 관련 수정
+----------------------------------------------------------------------------
+r1023 | sangho.jin | 2020-12-09 15:44:34 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+
+삭제예정 필드 삭제
+----------------------------------------------------------------------------
+r1017 | sangho.jin | 2020-12-09 11:54:01 KST
+Changed paths:
+	M /GBTS/src/com/sem/common/login/LoginController.java
+
+로깅추가
+----------------------------------------------------------------------------
+r1016 | sangho.jin | 2020-12-09 11:44:15 KST
+Changed paths:
+	M /GBTS/src/com/sem/common/login/LoginController.java
+
+재수정
+----------------------------------------------------------------------------
+r1015 | sangho.jin | 2020-12-09 11:31:09 KST
+Changed paths:
+	M /GBTS/src/com/sem/common/login/LoginController.java
+
+HR 테이블 체크 추가
+----------------------------------------------------------------------------
+r1011 | sangho.jin | 2020-12-09 09:09:16 KST
+Changed paths:
+	M /GBTS/src/com/sem/common/login/LoginController.java
+
+loginService.selectSAPUserInfo() 함수 호출시 try, catch 구문 추가
+----------------------------------------------------------------------------
+r1002 | sangho.jin | 2020-12-08 18:08:12 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+
+예약관리 완료
+----------------------------------------------------------------------------
+r986 | sangho.jin | 2020-12-08 12:16:46 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/BizTripService.java
+
+픽업관련내용 추가
+----------------------------------------------------------------------------
+r977 | sangho.jin | 2020-12-07 18:50:39 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+
+예약관련 수정
+----------------------------------------------------------------------------
+r976 | sangho.jin | 2020-12-07 18:50:03 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+
+모바일 일일출장 수정
+----------------------------------------------------------------------------
+r969 | sangho.jin | 2020-12-07 14:35:56 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/gmap_sph.html
+
+ie 오류 수정
+----------------------------------------------------------------------------
+r962 | sangho.jin | 2020-12-07 09:45:00 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+
+컬럼 변경 수정
+----------------------------------------------------------------------------
+r961 | sangho.jin | 2020-12-07 09:44:46 KST
+Changed paths:
+	M /GBTS/src/com/sem/icfr/common/file/ExcelUploadDecrypter.java
+	M /GBTS/src/com/sem/icfr/common/file/UploadFileDefinerImpl.java
+
+패키지 오류 수정
+----------------------------------------------------------------------------
+r944 | sangho.jin | 2020-12-04 18:20:41 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+	M /GBTS/src/com/sem/gbts/bizt/service/BizTripService.java
+	M /GBTS/WebContent/ui/bizt/tripReqIndex.xml
+
+예약수기입력 수정중
+----------------------------------------------------------------------------
+r933 | sangho.jin | 2020-12-04 17:03:46 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+
+출장신청상태값 'A'로 수정
+----------------------------------------------------------------------------
+r907 | sangho.jin | 2020-12-03 19:15:21 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+
+예약정보화면 완료
+----------------------------------------------------------------------------
+r878 | sangho.jin | 2020-12-02 19:08:37 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+
+항공예약 화면 조정
+----------------------------------------------------------------------------
+r865 | sangho.jin | 2020-12-02 13:56:51 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/src/com/sem/gbts/bizt/service/BizTripService.java
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+
+예약관련조회 백엔드 소스 수정
+----------------------------------------------------------------------------
+r863 | sangho.jin | 2020-12-02 11:04:08 KST
+Changed paths:
+	M /GBTS/.classpath
+
+Access restriction: The type 'XXX' is not API (restriction on required library rt.jar)
+오류 처리를 위해 rt.jar가 존재하는 라이브러리에 액세스 룰 추가
+com/sun/**
+sun/misc/**
+sun/swing/**
+----------------------------------------------------------------------------
+r848 | sangho.jin | 2020-12-01 13:41:34 KST
+Changed paths:
+	A /GBTS/WebContent/WEB-INF/lib/sapjco.jar
+
+누락 jar 추가 (from gsp project)
+----------------------------------------------------------------------------
+r834 | sangho.jin | 2020-11-30 14:05:46 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	A /GBTS/WebContent/mobile/js/gbts_lib.js
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	D /GBTS/WebContent/mobile/js/common.js
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+
+모바일 일일출장 코스트센터 적용
+----------------------------------------------------------------------------
+r819 | sangho.jin | 2020-11-27 18:16:52 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+
+사업장급지조회함수 기작성된 함수로 변경
+----------------------------------------------------------------------------
+r816 | sangho.jin | 2020-11-27 17:21:37 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/css/style.css
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+
+모바일 일일출장 급지 관련 추가
+----------------------------------------------------------------------------
+r794 | sangho.jin | 2020-11-26 19:07:19 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+	M /GBTS/WebContent/mobile/js/common.js
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+
+모바일 일일출장 개선
+----------------------------------------------------------------------------
+r788 | sangho.jin | 2020-11-25 19:19:46 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	A /GBTS/WebContent/mobile/img/loading.gif
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	D /GBTS/WebContent/mobile/list.html
+	M /GBTS/WebContent/mobile/css/style.css
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/WebContent/mobile/js/common.js
+
+모바일 일일출장 개선 (다국어 작업 중)
+----------------------------------------------------------------------------
+r774 | sangho.jin | 2020-11-24 18:02:20 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+
+깨진문자수정
+----------------------------------------------------------------------------
+r771 | sangho.jin | 2020-11-24 15:36:19 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/css/style.css
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+
+모바일 일일 출장 
+----------------------------------------------------------------------------
+r763 | sangho.jin | 2020-11-20 19:57:05 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	M /GBTS/WebContent/mobile/js/common.js
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+
+모바일 일일출장
+----------------------------------------------------------------------------
+r748 | sangho.jin | 2020-11-19 18:07:46 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/index.html
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/WebContent/mobile/oneDayTripList.html
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+
+모바일 일일출장 진행중
+----------------------------------------------------------------------------
+r731 | sangho.jin | 2020-11-18 18:22:07 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/WebContent/ui/bizt/popup/airportSearchPop.xml
+
+예약 출장번호 관련 수정
+----------------------------------------------------------------------------
+r730 | sangho.jin | 2020-11-18 18:21:36 KST
+Changed paths:
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	A /GBTS/src/com/sem/gbts/mobile/util/Crypto.java
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	M /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	A /GBTS/src/com/sem/gbts/mobile/util
+	M /GBTS/WebContent/mobile/index.html
+	M /GBTS/WebContent/mobile/css/style.css
+	A /GBTS/WebContent/mobile/oneDayTripList.html
+
+모바일 일일출장 진행
+----------------------------------------------------------------------------
+r729 | sangho.jin | 2020-11-18 18:14:24 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+
+오류수정
+----------------------------------------------------------------------------
+r687 | sangho.jin | 2020-11-16 18:19:26 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	M /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	M /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+
+모바일 진행중
+----------------------------------------------------------------------------
+r684 | sangho.jin | 2020-11-16 16:35:31 KST
+Changed paths:
+	A /GBTS/src/com/sem/gbts/mobile
+	M /GBTS/src/com/sem/gbts/common/filter/CommonAccessLogFilter.java
+	D /GBTS/WebContent/mobile/map.html
+	A /GBTS/WebContent/mobile/js/common.js
+	A /GBTS/src/com/sem/gbts/mobile/service/MobileService.java
+	A /GBTS/WebContent/mobile/findPlaceFromGoogleMap.html
+	A /GBTS/src/com/sem/gbts/mobile/dao
+	A /GBTS/src/com/sem/gbts/mobile/dao/MobileDao.java
+	A /GBTS/src/com/sem/gbts/mobile/service/impl
+	A /GBTS/WebContent/mobile/js/jquery-3.5.1.min.js
+	A /GBTS/src/com/sem/gbts/mobile/service
+	A /GBTS/src/com/sem/gbts/mobile/controller
+	A /GBTS/src/com/sem/gbts/mobile/service/impl/MobileServiceImpl.java
+	M /GBTS/WebContent/mobile/css/style.css
+	A /GBTS/src/com/sem/gbts/mobile/controller/MobileController.java
+	A /GBTS/src/com/sem/gbts/mobile/mapper
+	A /GBTS/WebContent/mobile/js
+	A /GBTS/src/com/sem/gbts/mobile/mapper/mobile_mapper.xml
+	A /GBTS/WebContent/mobile/oneDayTripReq.html
+	M /GBTS/WebContent/mobile/index.html
+	D /GBTS/WebContent/mobile/main.html
+
+모바일 일일출장 관련
+----------------------------------------------------------------------------
+r605 | sangho.jin | 2020-11-10 18:43:21 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	A /GBTS/WebContent/ui/bizt/popup/airportSearchPop.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	D /GBTS/WebContent/ui/bizt/popup/citySearchPop.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/BizTripService.java
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+
+항공예약관련 작업
+----------------------------------------------------------------------------
+r592 | sangho.jin | 2020-11-10 11:15:27 KST
+Changed paths:
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+
+camelcase to underscore
+----------------------------------------------------------------------------
+r589 | sangho.jin | 2020-11-10 10:45:08 KST
+Changed paths:
+	A /GBTS/WebContent/mobile/index.html
+	A /GBTS/WebContent/mobile
+
+모바일
+----------------------------------------------------------------------------
+r587 | sangho.jin | 2020-11-10 10:27:20 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+
+camelcase to underscore
+----------------------------------------------------------------------------
+r578 | sangho.jin | 2020-11-09 17:35:11 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/dao/ApprLineBasicDao.java
+	M /GBTS/src/com/sem/gbts/basc/controller/ApprLineBasicController.java
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLine_basic_mapper.xml
+	M /GBTS/src/com/sem/gbts/basc/service/ApprLineBasicService.java
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineDestConf.xml
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineConf.xml
+
+결재선 관련 수정
+----------------------------------------------------------------------------
+r577 | sangho.jin | 2020-11-09 17:34:20 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	A /GBTS/WebContent/ui/bizt/popup/citySearchPop.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/BizTripService.java
+	M /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/bizt/dao/BizTripDao.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+
+SBTM 예약현황 수동 등록 작업 중
+----------------------------------------------------------------------------
+r558 | sangho.jin | 2020-11-06 18:05:23 KST
+Changed paths:
+	A /GBTS/WebContent/ui/bizt/include
+	A /GBTS/WebContent/ui/bizt/include/bookingListInclude.xml
+	M /GBTS/src/com/sem/gbts/bizt/service/impl/BizTripServiceImpl.java
+	M /GBTS/WebContent/ui/bizt/tripReqForm.xml
+	M /GBTS/src/com/sem/gbts/bizt/controller/BizTripController.java
+	M /GBTS/src/com/sem/gbts/bizt/service/BizTripService.java
+	M /GBTS/src/com/sem/gbts/bizt/mapper/bizt_mapper.xml
+	M /GBTS/WebContent/ui/bizt/tripPlanList.xml
+
+항공예약 부분 진행 중
+----------------------------------------------------------------------------
+r519 | sangho.jin | 2020-11-02 09:57:29 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineDestBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApproverBasicServiceImpl.java
+
+버전변경오류수정
+----------------------------------------------------------------------------
+r516 | sangho.jin | 2020-10-30 17:17:01 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/basc/service/ApprLineDestBasicService.java
+	M /GBTS/WebContent/ui/sample/popupSample.xml
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineDestBasicServiceImpl.java
+	M /GBTS/WebContent/ui/comn/approvalPop.xml
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineDestConf.xml
+	M /GBTS/src/com/sem/gbts/basc/vo/ApprLineDestVO.java
+	M /GBTS/WebContent/cm/js/gbts_lib.js
+	M /GBTS/src/com/sem/gbts/basc/controller/ApprLineDestBasicController.java
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLineDest_basic_mapper.xml
+	M /GBTS/src/com/sem/gbts/basc/dao/ApprLineDestBasicDao.java
+
+결재선 진행중
+----------------------------------------------------------------------------
+r505 | sangho.jin | 2020-10-29 19:16:34 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sample/viewSample1.xml
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineDestBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/controller/ApprLineDestBasicController.java
+	M /GBTS/src/com/sem/gbts/basc/service/ApprLineDestBasicService.java
+	M /GBTS/WebContent/ui/comn/approvalPop.xml
+	M /GBTS/WebContent/ui/sample/popupSample.xml
+	M /GBTS/WebContent/cm/js/common.js
+	M /GBTS/WebContent/cm/js/gbts_lib.js
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineConf.xml
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLineDest_basic_mapper.xml
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineDestConf.xml
+	M /GBTS/src/com/sem/gbts/basc/dao/ApprLineDestBasicDao.java
+	M /GBTS/src/com/sem/gbts/basc/vo/ApprLineVO.java
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLine_basic_mapper.xml
+
+결재선 작업중
+----------------------------------------------------------------------------
+r504 | sangho.jin | 2020-10-29 19:15:54 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/util/ParamUtils.java
+
+파라미터로 빈맵이 올 경우에도 VO객체를 반환하도록 수정
+----------------------------------------------------------------------------
+r502 | sangho.jin | 2020-10-29 11:12:44 KST
+Changed paths:
+	M /GBTS/WebContent/cm/main/login.xml
+
+베트남 법인 사용자 예시 추가
+----------------------------------------------------------------------------
+r490 | sangho.jin | 2020-10-27 18:03:59 KST
+Changed paths:
+	A /GBTS/src/com/sem/gbts/basc/vo/ApprLineDestVO.java
+	A /GBTS/src/com/sem/gbts/basc/controller/ApprLineDestBasicController.java
+	A /GBTS/src/com/sem/gbts/basc/service/ApprLineDestBasicService.java
+	A /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineDestBasicServiceImpl.java
+	A /GBTS/src/com/sem/gbts/basc/dao/ApprLineDestBasicDao.java
+	A /GBTS/src/com/sem/gbts/basc/mapper/apprLineDest_basic_mapper.xml
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineConf.xml
+	M /GBTS/WebContent/cm/js/common.js
+	A /GBTS/WebContent/ui/admin/basc/corpApprLineDestConf.xml
+	M /GBTS/WebContent/ui/admin/basc/corpApproverConf.xml
+	M /GBTS/src/com/sem/gbts/rptr/vo/CustomerVO.java
+	M /GBTS/WebContent/cm/js/gbts_lib.js
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLine_basic_mapper.xml
+
+결재선 관리 작업 중
+----------------------------------------------------------------------------
+r485 | sangho.jin | 2020-10-23 17:48:46 KST
+Changed paths:
+	A /GBTS/src/com/sem/gbts/basc/controller/ApproverBasicController.java
+	M /GBTS/WebContent/ui/comn/mailPop.xml
+	M /GBTS/src/com/sem/gbts/basc/dao/ApprLineBasicDao.java
+	A /GBTS/WebContent/ui/admin/basc/corpApproverConf.xml
+	A /GBTS/src/com/sem/gbts/basc/mapper/approver_basic_mapper.xml
+	A /GBTS/src/com/sem/gbts/basc/service/impl/ApproverBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineBasicServiceImpl.java
+	M /GBTS/src/com/sem/gbts/basc/controller/ApprLineBasicController.java
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineConf.xml
+	M /GBTS/src/com/sem/gbts/basc/vo/ApprLineVO.java
+	A /GBTS/src/com/sem/gbts/basc/service/ApproverBasicService.java
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLine_basic_mapper.xml
+	A /GBTS/src/com/sem/gbts/basc/dao/ApproverBasicDao.java
+	M /GBTS/src/com/sem/gbts/basc/service/ApprLineBasicService.java
+	A /GBTS/src/com/sem/gbts/basc/vo/ApproverVO.java
+
+결재선관리 진행 중
+----------------------------------------------------------------------------
+r454 | sangho.jin | 2020-10-19 12:01:37 KST
+Changed paths:
+	M /GBTS/WebContent/cm/js/common.js
+
+팝업에서 세션 종료시 처리 추가
+----------------------------------------------------------------------------
+r451 | sangho.jin | 2020-10-16 18:46:36 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/basc/service/ApprLineBasicService.java
+	M /GBTS/src/com/sem/gbts/basc/vo/ApprLineVO.java
+	M /GBTS/src/com/sem/gbts/basc/dao/ApprLineBasicDao.java
+	M /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineBasicServiceImpl.java
+	M /GBTS/WebContent/ui/admin/basc/corpApprLineConf.xml
+	M /GBTS/src/com/sem/gbts/basc/controller/ApprLineBasicController.java
+	M /GBTS/src/com/sem/gbts/basc/mapper/apprLine_basic_mapper.xml
+
+결재선관리
+----------------------------------------------------------------------------
+r412 | sangho.jin | 2020-10-13 18:12:14 KST
+Changed paths:
+	M /GBTS/src/com/sem/gbts/common/controller/CommonController.java
+
+주석삭제
+----------------------------------------------------------------------------
+r411 | sangho.jin | 2020-10-13 17:09:47 KST
+Changed paths:
+	A /GBTS/src/com/sem/gbts/common/templates/test.vm
+	A /GBTS/src/com/sem/gbts/common/templates
+	A /GBTS/src/com/sem/gbts/common/service/TemplateService.java
+	A /GBTS/src/com/sem/gbts/common/templates/macro.vm
+	M /GBTS/resources/spring/appServlet/application-context.xml
+	M /GBTS/src/com/sem/gbts/common/mapper/common_mapper.xml
+	A /GBTS/src/com/sem/gbts/common/templates/common
+	A /GBTS/src/com/sem/gbts/common/service/impl/TemplateServiceImpl.java
+	A /GBTS/WebContent/WEB-INF/lib/velocity-dep-1.6.2.jar
+	M /GBTS/src/com/sem/gbts/common/controller/CommonController.java
+	A /GBTS/src/com/sem/gbts/common/templates/common/commonFile.vm
+	A /GBTS/src/com/sem/gbts/common/templates/rptr
+
+메일발송시 메일 내용 설정시 velocity를 사용하도록 추가
+----------------------------------------------------------------------------
+r397 | sangho.jin | 2020-10-13 10:29:08 KST
+Changed paths:
+	A /GBTS/WebContent/ui/admin/basc/corpApprLineConf.xml
+	A /GBTS/src/com/sem/gbts/basc/dao/ApprLineBasicDao.java
+	A /GBTS/src/com/sem/gbts/basc/vo/ApprLineVO.java
+	A /GBTS/src/com/sem/gbts/basc/mapper/apprLine_basic_mapper.xml
+	D /GBTS/src/com/sem/gbts/admin
+	A /GBTS/src/com/sem/gbts/basc/service/impl/ApprLineBasicServiceImpl.java
+	A /GBTS/src/com/sem/gbts/basc/controller/ApprLineBasicController.java
+	A /GBTS/src/com/sem/gbts/basc/service/ApprLineBasicService.java
+
+패키지 위치 이동
+
+----------------------------------------------------------------------------
+r393 | sangho.jin | 2020-10-12 18:02:16 KST
+Changed paths:
+	A /GBTS/src/com/sem/gbts/admin/basc/dao/BasicDao.java
+	A /GBTS/src/com/sem/gbts/admin/basc/vo
+	A /GBTS/src/com/sem/gbts/admin/basc/service/BasicService.java
+	A /GBTS/src/com/sem/gbts/admin
+	A /GBTS/src/com/sem/gbts/admin/basc/controller
+	A /GBTS/src/com/sem/gbts/admin/basc/mapper
+	A /GBTS/src/com/sem/gbts/admin/basc/vo/ComApprLineVO.java
+	A /GBTS/src/com/sem/gbts/admin/basc
+	A /GBTS/src/com/sem/gbts/admin/basc/service/impl/BasicServiceImpl.java
+	A /GBTS/src/com/sem/gbts/admin/basc/service/impl
+	A /GBTS/src/com/sem/gbts/admin/basc/controller/BasicController.java
+	A /GBTS/src/com/sem/gbts/admin/basc/service
+	A /GBTS/src/com/sem/gbts/admin/basc/dao
+	A /GBTS/src/com/sem/gbts/admin/basc/mapper/basic_mapper.xml
+
+기준정보관리 관련 파일 추가
+----------------------------------------------------------------------------
+r371 | sangho.jin | 2020-10-08 16:19:26 KST
+Changed paths:
+	M /GBTS/WebContent/ui/comn/approvalPop.xml
+	M /GBTS/WebContent/ui/comn/mailPop.xml
+
+수신인 종류 지정시 그리드 내부의 버튼으로 변경 되도록 수정
+----------------------------------------------------------------------------
+r288 | sangho.jin | 2020-09-25 10:50:54 KST
+Changed paths:
+	M /GBTS/WebContent/ui/comn/mailPop.xml
+	M /GBTS/WebContent/ui/sample/popupSample.xml
+
+메일발송수정
+----------------------------------------------------------------------------
+r284 | sangho.jin | 2020-09-24 18:10:59 KST
+Changed paths:
+	A /GBTS/WebContent/ui/comn/mailPop.xml
+	M /GBTS/WebContent/ui/sample/popupSample.xml
+	M /GBTS/WebContent/ui/sample/SendMailSample.xml
+	M /GBTS/WebContent/ui/comn/approvalPop.xml
+	M /GBTS/WebContent/xfree/xfree.jsp
+
+메일 발송 팝업 작성 완료
+----------------------------------------------------------------------------
+r195 | sangho.jin | 2020-09-17 14:27:01 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sample/popupSample.xml
+
+팝업 열때 중앙으로 맞추는 예재
+----------------------------------------------------------------------------
+r189 | sangho.jin | 2020-09-17 10:08:16 KST
+Changed paths:
+	M /GBTS/WebContent/ui/sample/popupSample.xml
+
+윈도우 팝업 오류 수정
+----------------------------------------------------------------------------
+r188 | sangho.jin | 2020-09-17 10:07:07 KST
+Changed paths:
+	M /GBTS/WebContent/websquare/popup.html
+	M /GBTS/WebContent/WEB-INF/web.xml
+
+윈도우 팝업 사용불가 오류 수정
+----------------------------------------------------------------------------
